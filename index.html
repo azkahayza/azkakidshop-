@@ -1,0 +1,56 @@
+!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azkakidshop - Toko Baju Anak</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Azkakidshop</h1>
+        <p>Toko Baju Anak Terlengkap & Termurah</p>
+    </header>
+
+    <!-- Produk Section -->
+    <section class="produk-section">
+        <h2>Produk Terbaru</h2>
+
+        <div class="produk-container">
+
+            <!-- Produk 1 -->
+            <div class="produk-card">
+                <img src="https://i.ibb.co/4YDL6zP/kids1.jpg" alt="Baju Anak 1">
+                <h3>Baju Anak Lucu</h3>
+                <p class="harga">Rp 79.000</p>
+                <button onclick="tambahKeranjang('Baju Anak Lucu')">Tambah ke Keranjang</button>
+            </div>
+
+            <!-- Produk 2 -->
+            <div class="produk-card">
+                <img src="https://i.ibb.co/F3pffWm/kids2.jpg" alt="Baju Anak 2">
+                <h3>Setelan Anak</h3>
+                <p class="harga">Rp 95.000</p>
+                <button onclick="tambahKeranjang('Setelan Anak')">Tambah ke Keranjang</button>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="produk-card">
+                <img src="https://i.ibb.co/DR6Lw45/kids3.jpg" alt="Baju Anak 3">
+                <h3>Dress Anak Perempuan</h3>
+                <p class="harga">Rp 120.000</p>
+                <button onclick="tambahKeranjang('Dress Anak Perempuan')">Tambah ke Keranjang</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Keranjang -->
+    <section class="keranjang">
+        <h2>Keranjang Belanja</h2>
+        <ul id="listKeranjang"></ul>
+    </section>
+
+    <script src="script.js"></script
